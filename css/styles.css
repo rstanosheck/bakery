@@ -63,6 +63,15 @@ nav ul li a:hover {
     border-radius: 10px;
     color: white;
 }
+video {
+    float: float; 
+    justify-content: right;
+    align: center;
+    height: auto;
+    display: block;
+    translate: 
+    
+}
 
 #main {
     width: 446px;
@@ -77,6 +86,7 @@ nav ul li a:hover {
 #main p {
     text-indent: 1.5em;
 }
+
 
 figure{
     padding-top: 10px;
@@ -144,3 +154,137 @@ footer a:visited {
 footer a:hover {
     text-decoration: underline;
 }
+
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    unicode-bidi: isolate;
+}
+
+@media only screen and (min-width: 481px) {
+    blockquote {
+        background: rgb(241, 241, 241);
+        border-left: 10px solid rgba(137, 152, 241, .5); 
+        quotes: "\201C" "\201D" "\201C" "\2019";
+        border-radius: 20%;
+        width: 40%;
+        margin: 1%;
+        float: left;
+        padding: 2%;
+    }
+
+    body > section > aside:first-of-type {
+        -webkit-flex: 1 1 265px;
+        flex: 1 1 265px;
+     }
+     
+     body > section > aside:last-of-type {
+        -webkit-flex: 1 1 325px;
+        flex: 1 1 325px;
+     }
+     
+    
+     
+     body > section > aside > h1 {
+        font-size: 1.2em;
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 15px;
+     }
+     
+     body > section > aside > p {
+        margin: 15px 0px 20px;
+     }
+     body > section > article {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+     }
+     
+     body > section > article > div#synopsis {
+        -webkit-flex: 1 1 540px;
+        flex: 1 1 540px;
+        padding-right: 15px;
+     }
+     
+     body > section > article > div#cast {
+        -webkit-flex: 1 1 260px;
+        flex: 1 1 260px;
+        -webkit-align-self: center;
+        align-self: center;
+        padding-right: 15px;
+     }
+     
+   
+     
+     
+     body > section > article p {
+        color: rgb(51, 51, 51);
+        font-size: 1.2em;
+        margin: 20px 0px;
+     }
+
+     fieldset {
+        display: block;
+        margin-inline-start: 2px;
+        margin-inline-end: 2px;
+        padding-block-start: 0.35em;
+        padding-inline-start: 0.75em;
+        padding-inline-end: 0.75em;
+        padding-block-end: 0.625em;
+        min-inline-size: min-content;
+        border-width: 2px;
+        border-style: groove;
+        border-color: rgb(192, 192, 192);
+        border-image: initial;
+    }
+     
+
+     
+     
+     
+     /* Table Styles */
+     
+     table {
+        border: 1px solid rgb(19, 18, 18);
+        border-collapse: collapse;
+        color: rgba(51, 51, 51, 0.9);     
+        width: 100%;
+     }
+     
+     table caption { 
+        font-size: 1.5em;
+        margin: 0px 0px 10px 0px;
+     }
+     
+     table td {
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        vertical-align: top;
+        padding: 4px;
+        width: 50%;
+     }
+     
+     table tbody tr:nth-of-type(odd) {
+        background-color: rgba(255, 255, 255, 0.4);
+     }
+     
+     table tbody tr:nth-of-type(even) {
+        background-color: rgba(255, 255, 255, 0.6);
+     }
+     
+     table a {
+        color: rgba(51, 51, 51, 0.9);
+        text-decoration: none;
+     }
+     
+     table a:hover {
+        text-decoration: underline;
+     }
+     
+    
+    }
+   
