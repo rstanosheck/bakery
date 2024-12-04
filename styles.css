@@ -64,11 +64,12 @@ nav ul li a:hover {
     color: white;
 }
 video {
-    float: center; 
+    float: float; 
     justify-content: right;
-    align: right;
+    align: center;
     height: auto;
     display: block;
+    translate: 
     
 }
 
